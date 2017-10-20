@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "0.0.0",
   "description": "FORTRAN language support for Atom-IDE.",
-  "repository": "https://github.com/atom/ide-fortran",
+  "repository": "https://github.com/hansec/ide-fortran",
   "license": "MIT",
   "engines": {
     "atom": ">=1.21.0"
