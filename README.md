@@ -1,5 +1,8 @@
 # IDE-FORTRAN package
-[![macOS Build Status](https://travis-ci.org/hansec/ide-fortran.svg?branch=master)](https://travis-ci.org/hansec/ide-fortran) [![Dependency Status](https://david-dm.org/hansec/ide-fortran.svg)](https://david-dm.org/hansec/ide-fortran)
+[![macOS Build Status](https://travis-ci.org/hansec/ide-fortran.svg?branch=master)](https://travis-ci.org/hansec/ide-fortran)
+[![Dependency Status](https://david-dm.org/hansec/ide-fortran.svg)](https://david-dm.org/hansec/ide-fortran)
+[![Package version](https://img.shields.io/apm/v/ide-fortran.svg)](https://atom.io/packages/ide-fortran)
+[![Plugin installs](https://img.shields.io/apm/dm/ide-fortran.svg)](https://atom.io/packages/ide-fortran)
 
 FORTRAN language support for Atom-IDE, powered by the [FORTRAN Language Server](https://github.com/hansec/fortran-language-server).
 
