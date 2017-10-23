@@ -43,11 +43,13 @@ disable it or you will see multiple copies of suggestions in auto completion.
 By default all files with the suffix `f,F,f77,F77,for,FOR,fpp,FPP` or `f90,F90,f95,F95,f03,F03,f08,F08` in the
 base atom project directory are parsed and included in the project. Specific folders containing FORTRAN
 source files can be set for a given project by placing a JSON file (example below) named `.fortls` in the
-base directory. Folders to search are listed in the variable `mod_dirs` (relative to the project root).
-Directories are not added recursively, so any nested sub directories must be explicitly listed.
+base directory. Folders to search are listed in the variable `mod_dirs` (relative to the project root)
+and excluded files can be specified using the variable `excl_paths`. Directories are not added recursively,
+so any nested sub directories must be explicitly listed.
 
     {
-      "mod_dirs": ["subdir1", "subdir2"]
+      "mod_dirs": ["subdir1", "subdir2"],
+      "excl_paths": ["subdir1/file_to_skip.F90"]
     }
 
 ## Bug reports
