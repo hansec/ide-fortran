@@ -28,6 +28,13 @@
       "type": "string",
       "default": "fortls",
       "description": "Absolute path to ```fortls``` executable."
+    },
+    "debug": {
+      "type": "boolean",
+      "default": false,
+      "order": 2,
+      "title": "Debugging",
+      "description": "Provides some debug notifications such as Language Server launch and close"
     }
   },
   "consumedServices": {
