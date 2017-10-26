@@ -39,21 +39,15 @@ disable it or you will see multiple copies of suggestions in auto completion.
 
 ## Configuration
 
-### Setup module search paths
-By default all files with the suffix `f,F,f77,F77,for,FOR,fpp,FPP` or `f90,F90,f95,F95,f03,F03,f08,F08` in the
-base atom project directory are parsed and included in the project. Specific folders containing FORTRAN
-source files can be set for a given project by placing a JSON file (example below) named `.fortls` in the
-base directory. Folders to search are listed in the variable `mod_dirs` (relative to the project root)
-and excluded files can be specified using the variable `excl_paths`. Directories are not added recursively,
-so any nested sub directories must be explicitly listed.
-
-    {
-      "mod_dirs": ["subdir1", "subdir2"],
-      "excl_paths": ["subdir1/file_to_skip.F90"]
-    }
+See the [fortran-language-server README](https://github.com/hansec/fortran-language-server/blob/master/README.rst) for
+information on project specific configuration settings.
 
 ## Bug reports
-When [filing bugs](https://github.com/atom/ide-fortran/issues/new) please provide example code to reproduce the observed issue.
+Note that most bugs observed with this package are actually related to the upstream
+[fortran-language-server](https://github.com/hansec/fortran-language-server). Unless you believe the error
+you observe is directly related to Atom please submit issues to the
+[upstream repo](https://github.com/atom/fortran-language-server/issues/new). When filing bugs please
+provide example code to reproduce the observed issue if possible.
 
 ## License
 MIT License. See [the license](LICENSE.md) for more details.

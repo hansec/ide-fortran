@@ -29,10 +29,17 @@
       "default": "fortls",
       "description": "Absolute path to ```fortls``` executable."
     },
+    "include_symbol_mem": {
+      "type": "boolean",
+      "default": true,
+      "order": 2,
+      "title": "Type member symbols",
+      "description": "Include type members in document outline"
+    },
     "debug": {
       "type": "boolean",
       "default": false,
-      "order": 2,
+      "order": 3,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     }
