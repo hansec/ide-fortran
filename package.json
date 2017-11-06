@@ -34,12 +34,19 @@
       "default": true,
       "order": 2,
       "title": "Type member symbols",
-      "description": "Include type members in document outline"
+      "description": "Include type members in document outline (disabling requires fortls v0.2.0+)"
+    },
+    "incremental_sync": {
+      "type": "boolean",
+      "default": false,
+      "order": 3,
+      "title": "Incremental Synchronization",
+      "description": "Use incremental synchronization for file changes (requires fortls v0.3.0+)"
     },
     "debug": {
       "type": "boolean",
       "default": false,
-      "order": 3,
+      "order": 4,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     }
