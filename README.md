@@ -11,7 +11,8 @@ FORTRAN language support for Atom-IDE, powered by the [FORTRAN Language Server](
 ## Early access
 
 [IDE functionality in Atom](https://ide.atom.io/) is currently new and this package and
-its [language server](https://github.com/hansec/fortran-language-server) are in early release states.
+its [language server](https://github.com/hansec/fortran-language-server) are in early release states. Be sure
+to periodically update the language server to stay up to date with new features and fixes.
 
 ## Requirements
 This package requires the following packages to be installed:
@@ -31,6 +32,7 @@ Windows may work as well, but has not yet been tested.
 * Document outline
 * Go to definition
 * Hover
+* Diagnostics (fortls v0.3.0+)
 
 See [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) for examples and more details.
 
@@ -54,4 +56,4 @@ MIT License. See [the license](LICENSE.md) for more details.
 
 --------
 
-If you *really* like [ide-fortran](https://atom.io/packages/ide-fortran) you can <a href='https://ko-fi.com/A1085MY' target="_blank"><img height='25' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=b' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> or a :beer: to say thanks.
+If you *really* like [ide-fortran](https://atom.io/packages/ide-fortran) or the underlying [language server](https://github.com/hansec/fortran-language-server) you can <a href='https://ko-fi.com/A1085MY' target="_blank"><img height='25' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=b' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> or a :beer: to say thanks.
