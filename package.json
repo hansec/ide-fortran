@@ -14,7 +14,7 @@
     "atom": ">=1.21.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.6.1",
+    "atom-languageclient": "^0.7.0",
     "shell-env": "^0.3.0"
   },
   "enhancedScopes": [
