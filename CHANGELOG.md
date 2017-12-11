@@ -1,3 +1,6 @@
+## 0.1.3
+* Fix "Uncaught ReferenceError" when language server fails to start [#3](https://github.com/hansec/ide-fortran/issues/3)
+
 ## 0.1.2
 * Add support for "symbol_skip_mem" language server option
 * Add support for "incremental_sync" language server option
