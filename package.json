@@ -49,6 +49,13 @@
       "order": 4,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
+    },
+    "displayVerWarning": {
+      "type": "boolean",
+      "default": true,
+      "order": 5,
+      "title": "Display warnings when fortls is outdated",
+      "description": "Provides notification when the underlying ```fortran-language-server``` is out of date"
     }
   },
   "consumedServices": {
