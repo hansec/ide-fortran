@@ -8,11 +8,11 @@ FORTRAN language support for Atom-IDE, powered by the [FORTRAN Language Server](
 
 ![Screen shot of IDE-FORTRAN](https://raw.githubusercontent.com/hansec/ide-fortran/master/images/screenshot.png)
 
-## Early access
+## Beta release
 
-[IDE functionality in Atom](https://ide.atom.io/) is currently new and this package and
+[IDE functionality in Atom](https://ide.atom.io/) is fairly new and this package and
 its [language server](https://github.com/hansec/fortran-language-server) are in early release states. Be sure
-to periodically update the language server to stay up to date with new features and fixes.
+to periodically update the underlying language server to stay up to date with new features and fixes.
 
 ## Requirements
 This package requires the following packages to be installed:
@@ -23,8 +23,7 @@ Additionally, you must have [Python](https://www.python.org/) and the
 [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) installed
 on your system.
 
-This package has been tested and *should* work on :apple: Mac OSX and :penguin: Linux.
-Windows may work as well, but has not yet been tested.
+This package has been tested and *should* work on :apple: macOS (OS X), :penguin: Linux and Windows.
 
 ## Features
 
