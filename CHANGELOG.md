@@ -1,3 +1,6 @@
+## 0.1.5
+* Add warning when underlying language server is out of date. Intial warning at version 0.3.3
+
 ## 0.1.4
 * Bump package dependencies
 
