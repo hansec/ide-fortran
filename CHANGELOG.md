@@ -1,5 +1,9 @@
+## 0.1.6
+* Fix bug that may cause Atom to hang when using ide-fortran on Linux [#6](https://github.com/hansec/ide-fortran/issues/6)
+* Bump recommended language server version to 0.3.6
+
 ## 0.1.5
-* Add warning when underlying language server is out of date. Intial warning at version 0.3.3
+* Add warning when underlying language server is out of date. Initial warning at version 0.3.3
 
 ## 0.1.4
 * Bump package dependencies
