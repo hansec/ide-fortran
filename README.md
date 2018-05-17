@@ -53,6 +53,6 @@ provide example code to reproduce the observed issue if possible.
 ## License
 MIT License. See [the license](LICENSE.md) for more details.
 
---------
+## Support
 
-If you *really* like [ide-fortran](https://atom.io/packages/ide-fortran) or the underlying [language server](https://github.com/hansec/fortran-language-server) you can <a href='https://ko-fi.com/A1085MY' target="_blank"><img height='25' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=b' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> or a :beer: to say thanks.
+If you *really* like [ide-fortran](https://atom.io/packages/ide-fortran) or the underlying [language server](https://github.com/hansec/fortran-language-server) you can <a href='https://paypal.me/hansec' target="_blank">buy me a :coffee: or a :beer:</a> to say thanks.
