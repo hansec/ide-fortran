@@ -33,7 +33,7 @@ This package has been tested and *should* work on :apple: macOS (OS X), :penguin
 * Hover
 * Diagnostics (fortls v0.3.0+)
 
-See [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) for examples and more details.
+See [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
 
 **Note:** If you are already using the [autocomplete-fortran](https://atom.io/packages/autocomplete-fortran) package
 disable it or you will see multiple copies of suggestions in auto completion.
@@ -47,7 +47,7 @@ information on project specific configuration settings.
 Note that most bugs observed with this package are actually related to the upstream
 [fortran-language-server](https://github.com/hansec/fortran-language-server). Unless you believe the error
 you observe is directly related to Atom please submit issues to the
-[upstream repo](https://github.com/atom/fortran-language-server/issues/new). When filing bugs please
+[upstream repo](https://github.com/hansec/fortran-language-server/issues/new). When filing bugs please
 provide example code to reproduce the observed issue if possible.
 
 ## License
