@@ -31,7 +31,7 @@ This package has been tested and *should* work on :apple: macOS (OS X), :penguin
 * Document outline
 * Go to definition
 * Hover
-* Diagnostics (fortls v0.3.0+)
+* Diagnostics
 
 See [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
 
