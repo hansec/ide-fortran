@@ -1,7 +1,7 @@
 {
   "name": "ide-fortran",
   "main": "./lib/main",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "FORTRAN language support for Atom-IDE.",
   "keywords": [
     "FORTRAN",
