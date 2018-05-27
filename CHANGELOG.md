@@ -1,3 +1,6 @@
+## 0.1.9
+* Fix support for disabling language server prefix filtering
+
 ## 0.1.8
 * Add support for disabling language server prefix filtering
 * Bump recommended language server version to 0.4.0
