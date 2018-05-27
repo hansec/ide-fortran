@@ -36,7 +36,7 @@
       "title": "Type member symbols",
       "description": "Include type members in document outline (disabling requires fortls v0.2.0+)"
     },
-    "autocomplete_prefix": {
+    "autocomplete_no_prefix": {
       "type": "boolean",
       "default": true,
       "order": 3,

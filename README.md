@@ -4,7 +4,7 @@
 [![Package version](https://img.shields.io/apm/v/ide-fortran.svg)](https://atom.io/packages/ide-fortran)
 [![Plugin installs](https://img.shields.io/apm/dm/ide-fortran.svg)](https://atom.io/packages/ide-fortran)
 
-FORTRAN language support for Atom-IDE, powered by the [FORTRAN Language Server](https://github.com/hansec/fortran-language-server).
+Fortran language support for Atom-IDE, powered by the [Fortran Language Server](https://github.com/hansec/fortran-language-server).
 
 ![Screen shot of IDE-FORTRAN](https://raw.githubusercontent.com/hansec/ide-fortran/master/images/screenshot.png)
 
@@ -20,7 +20,7 @@ This package requires the following packages to be installed:
  * [language-fortran](https://atom.io/packages/language-fortran)
 
 Additionally, you must have [Python](https://www.python.org/) and the
-[FORTRAN Language Server](https://github.com/hansec/fortran-language-server) installed
+[Fortran Language Server](https://github.com/hansec/fortran-language-server) installed
 on your system.
 
 This package has been tested and *should* work on :apple: macOS (OS X), :penguin: Linux and Windows.
@@ -31,9 +31,10 @@ This package has been tested and *should* work on :apple: macOS (OS X), :penguin
 * Document outline
 * Go to definition
 * Hover
+* Find references (fortls v0.4.0+)
 * Diagnostics
 
-See [FORTRAN Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
+See [Fortran Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
 
 **Note:** If you are already using the [autocomplete-fortran](https://atom.io/packages/autocomplete-fortran) package
 disable it or you will see multiple copies of suggestions in auto completion.
