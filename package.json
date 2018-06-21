@@ -42,24 +42,31 @@
       "title": "Filter autocomplete suggestions",
       "description": "Filter autocomplete suggestions with variable prefix (disabling requires fortls v0.3.7+)"
     },
-    "incremental_sync": {
+    "lowercase_intrinsics": {
       "type": "boolean",
       "default": false,
       "order": 4,
+      "title": "Lowercase intrinsics",
+      "description": "Use lowercase for intrinsics and keywords in autocomplete requests (requires fortls v0.5.0+)"
+    },
+    "incremental_sync": {
+      "type": "boolean",
+      "default": false,
+      "order": 5,
       "title": "Incremental Synchronization",
       "description": "Use incremental synchronization for file changes (requires fortls v0.3.0+)"
     },
     "debug": {
       "type": "boolean",
       "default": false,
-      "order": 5,
+      "order": 6,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     },
     "displayVerWarning": {
       "type": "boolean",
       "default": true,
-      "order": 6,
+      "order": 7,
       "title": "Display warnings when fortls is outdated",
       "description": "Provides notification when the underlying ```fortran-language-server``` is out of date"
     }
