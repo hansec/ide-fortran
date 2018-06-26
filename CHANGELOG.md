@@ -1,3 +1,10 @@
+## 0.2.0
+* Use incremental sync by default
+* Do not filter autocomplete suggestions by default
+* Add support for setting intrinsic case
+* Bump recommended language server version to 0.6.0
+* Remove shell-env dependency
+
 ## 0.1.9
 * Fix support for disabling language server prefix filtering
 
