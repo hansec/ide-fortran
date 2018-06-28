@@ -1,3 +1,6 @@
+## 0.2.1
+* Add automatic language server version check when package loads
+
 ## 0.2.0
 * Use incremental sync by default
 * Do not filter autocomplete suggestions by default
