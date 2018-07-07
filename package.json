@@ -56,17 +56,24 @@
       "title": "Incremental Synchronization",
       "description": "Use incremental synchronization for file changes (requires fortls v0.3.0+)"
     },
-    "debug": {
+    "use_signature_help": {
       "type": "boolean",
       "default": false,
       "order": 6,
+      "title": "Signature Help (beta)",
+      "description": "Use signature help instead of snippets when available (requires fortls v0.7.0+)"
+    },
+    "debug": {
+      "type": "boolean",
+      "default": false,
+      "order": 7,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     },
     "displayVerWarning": {
       "type": "boolean",
       "default": true,
-      "order": 7,
+      "order": 8,
       "title": "Display warnings when fortls is outdated",
       "description": "Provides notification when the underlying ```fortran-language-server``` is out of date"
     }
@@ -80,6 +87,11 @@
     "datatip": {
       "versions": {
         "0.1.0": "consumeDatatip"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "consumeSignatureHelp"
       }
     }
   },
