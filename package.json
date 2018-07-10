@@ -33,14 +33,14 @@
       "default": true,
       "order": 2,
       "title": "Type member symbols",
-      "description": "Include type members in document outline (disabling requires fortls v0.2.0+)"
+      "description": "Include type members in document outline"
     },
     "autocomplete_no_prefix": {
       "type": "boolean",
       "default": false,
       "order": 3,
       "title": "Filter autocomplete suggestions",
-      "description": "Filter autocomplete suggestions with variable prefix (disabling requires fortls v0.3.7+)"
+      "description": "Filter autocomplete suggestions with variable prefix"
     },
     "lowercase_intrinsics": {
       "type": "boolean",
@@ -54,26 +54,33 @@
       "default": true,
       "order": 5,
       "title": "Incremental Synchronization",
-      "description": "Use incremental synchronization for file changes (requires fortls v0.3.0+)"
+      "description": "Use incremental synchronization for file changes"
+    },
+    "variable_hover": {
+      "type": "boolean",
+      "default": false,
+      "order": 6,
+      "title": "Variable hover",
+      "description": "Show hover information for variables (requires fortls v0.7.1+)"
     },
     "use_signature_help": {
       "type": "boolean",
       "default": false,
-      "order": 6,
+      "order": 7,
       "title": "Signature Help (beta)",
       "description": "Use signature help instead of snippets when available (requires fortls v0.7.0+)"
     },
     "debug": {
       "type": "boolean",
       "default": false,
-      "order": 7,
+      "order": 8,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     },
     "displayVerWarning": {
       "type": "boolean",
       "default": true,
-      "order": 8,
+      "order": 9,
       "title": "Display warnings when fortls is outdated",
       "description": "Provides notification when the underlying ```fortran-language-server``` is out of date"
     }
