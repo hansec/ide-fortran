@@ -27,12 +27,16 @@ This package has been tested and *should* work on :apple: macOS (OS X), :penguin
 
 ## Features
 
-* Auto completion
+* [Completion](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_autocomplete.gif)
+* [Signature help (fortls v0.7.0+)](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_sigHelp.gif)
 * Document outline
-* Go to definition
-* Hover
-* Find references (fortls v0.4.0+)
+* [Go to definition](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_gotodef.gif)
+* [Hover](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_hover.gif)
+* [Find references](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_refs.png)
 * Diagnostics
+  - Multiple use of the same variable name
+  - Unknown module in USE statement
+  - Variable masking definition from parent scope
 
 See [Fortran Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
 
