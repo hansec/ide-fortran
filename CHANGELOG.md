@@ -1,3 +1,7 @@
+## 0.3.0
+* Use signatureHelp by default
+* Bump recommended minimum language server version to 0.8.1
+
 ## 0.2.3
 * Add support for variable_hover language server option
 * Bump recommended minimum language server version to 0.7.1
