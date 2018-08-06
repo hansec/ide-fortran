@@ -35,7 +35,7 @@
       "title": "Type member symbols",
       "description": "Include type members in document outline"
     },
-    "autocomplete_no_prefix": {
+    "autocomplete_prefix": {
       "type": "boolean",
       "default": false,
       "order": 3,
@@ -65,7 +65,7 @@
     },
     "use_signature_help": {
       "type": "boolean",
-      "default": false,
+      "default": true,
       "order": 7,
       "title": "Signature Help (beta)",
       "description": "Use signature help instead of snippets when available (requires fortls v0.7.0+)"
