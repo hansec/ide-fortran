@@ -2,7 +2,7 @@
   "name": "ide-fortran",
   "main": "./lib/main",
   "version": "0.3.0",
-  "description": "FORTRAN language support for Atom-IDE.",
+  "description": "Fortran language support for Atom-IDE.",
   "keywords": [
     "FORTRAN",
     "autocomplete",
@@ -22,7 +22,7 @@
   ],
   "configSchema": {
     "fortlsPath": {
-      "title": "FORTRAN Language Server Path",
+      "title": "Fortran Language Server Path",
       "order": 1,
       "type": "string",
       "default": "fortls",
@@ -47,7 +47,7 @@
       "default": false,
       "order": 4,
       "title": "Lowercase intrinsics",
-      "description": "Use lowercase for intrinsics and keywords in autocomplete requests (requires fortls v0.6.0+)"
+      "description": "Use lowercase for intrinsics and keywords in autocomplete requests"
     },
     "incremental_sync": {
       "type": "boolean",
@@ -61,26 +61,33 @@
       "default": false,
       "order": 6,
       "title": "Variable hover",
-      "description": "Show hover information for variables (requires fortls v0.7.1+)"
+      "description": "Show hover information for variables"
     },
     "use_signature_help": {
       "type": "boolean",
       "default": true,
       "order": 7,
-      "title": "Signature Help (beta)",
-      "description": "Use signature help instead of snippets when available (requires fortls v0.7.0+)"
+      "title": "Signature Help",
+      "description": "Use signature help instead of snippets when available"
+    },
+    "notify_init": {
+      "type": "boolean",
+      "default": false,
+      "order": 8,
+      "title": "Initialization notifications",
+      "description": "Notify when workspace initialization is complete (requires v1.7.0+)"
     },
     "debug": {
       "type": "boolean",
       "default": false,
-      "order": 8,
+      "order": 9,
       "title": "Debugging",
       "description": "Provides some debug notifications such as Language Server launch and close"
     },
     "displayVerWarning": {
       "type": "boolean",
       "default": true,
-      "order": 9,
+      "order": 10,
       "title": "Display warnings when fortls is outdated",
       "description": "Provides notification when the underlying ```fortran-language-server``` is out of date"
     }
