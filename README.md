@@ -6,13 +6,36 @@
 
 Fortran language support for Atom-IDE, powered by the [Fortran Language Server](https://github.com/hansec/fortran-language-server).
 
+## Features
+
+* Document outline
+* [Completion](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_autocomplete.gif)
+* [Signature help](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_sigHelp.gif)
+* [GoTo/Peek definition](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_gotodef.gif)
+* GoTo implementation
+* [Hover](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_hover.gif)
+* [Find/Peek references](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_refs.png)
+* Project-wide symbol search
+* Symbol renaming
+* Documentation parsing ([Doxygen](http://www.doxygen.org/) and [FORD](https://github.com/Fortran-FOSS-Programmers/ford) styles)
+* Diagnostics
+  - Multiple definitions with the same variable name
+  - Variable definition masks definition from parent scope
+  - Missing subroutine/function arguments
+  - Unknown user-defined type used in "TYPE"/"CLASS" definition (only if visible in project)
+  - Unclosed blocks/scopes
+  - Invalid scope nesting
+  - Unknown modules in "USE" statement
+  - Unimplemented deferred type-bound procedures
+  - Use of unimported variables/objects in interface blocks
+  - Statement placement errors ("CONTAINS", "IMPLICIT", "IMPORT")
+
+See [Fortran Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
+
+**Note:** If you are already using the [autocomplete-fortran](https://atom.io/packages/autocomplete-fortran) package
+disable it or you will see multiple copies of suggestions in auto completion.
+
 ![Screen shot of IDE-FORTRAN](https://raw.githubusercontent.com/hansec/ide-fortran/master/images/screenshot.png)
-
-## Beta release
-
-[IDE functionality in Atom](https://ide.atom.io/) is fairly new and this package and
-its [language server](https://github.com/hansec/fortran-language-server) are in early release states. Be sure
-to periodically update the underlying language server to stay up to date with new features and fixes.
 
 ## Requirements
 This package requires the following packages to be installed:
@@ -24,24 +47,6 @@ Additionally, you must have [Python](https://www.python.org/) and the
 on your system.
 
 This package has been tested and *should* work on :apple: macOS (OS X), :penguin: Linux and Windows.
-
-## Features
-
-* [Completion](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_autocomplete.gif)
-* [Signature help (fortls v0.7.0+)](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_sigHelp.gif)
-* Document outline
-* [Go to definition](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_gotodef.gif)
-* [Hover](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_hover.gif)
-* [Find references](https://raw.githubusercontent.com/hansec/fortran-language-server/master/images/fortls_refs.png)
-* Diagnostics
-  - Multiple use of the same variable name
-  - Unknown module in USE statement
-  - Variable masking definition from parent scope
-
-See [Fortran Language Server](https://github.com/hansec/fortran-language-server) for examples and more details. There is also a [companion package](https://marketplace.visualstudio.com/items?itemName=hansec.fortran-ls) for [Visual Studio Code](https://code.visualstudio.com/).
-
-**Note:** If you are already using the [autocomplete-fortran](https://atom.io/packages/autocomplete-fortran) package
-disable it or you will see multiple copies of suggestions in auto completion.
 
 ## Configuration
 

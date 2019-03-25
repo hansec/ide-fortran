@@ -1,3 +1,7 @@
+## 0.4.0
+* Add support for language server v1.7 features
+* Update README to reflect full release of language server
+
 ## 0.3.0
 * Use signatureHelp by default
 * Bump recommended minimum language server version to 0.8.1
